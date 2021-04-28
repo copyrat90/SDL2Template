@@ -6,5 +6,7 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "files.insertFinalNewline": true
 }
