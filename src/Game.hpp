@@ -1,6 +1,9 @@
 #pragma once
 
 #include <SDL.h>
+#include <vector>
+#include <memory>
+#include <EC/EC.hpp>
 
 
 class Game
@@ -20,6 +23,8 @@ private:
 
     static constexpr Uint32 FPS = 60;
     static constexpr Uint32 MS_PER_FRAME = 1000 / FPS;
+
+    std::vector<std::unique_ptr<EC::Entity>> entities_;
 
     bool isReady_ = false;
     bool isRunning_ = false;
